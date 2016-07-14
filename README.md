@@ -24,4 +24,4 @@
 ### Watch out
 
   - If some examples do not work - e.g. materialization - this is probably because you don't
-    have the chef gem installed. Install it as per your node configuration.
+    have the chef gem installed. Install it as per your node's configuration.
