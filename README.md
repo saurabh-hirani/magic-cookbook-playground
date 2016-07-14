@@ -11,7 +11,7 @@
   - set GITHUB_REPOS to the parent directory in which you cloned the cookbook
 
     ```
-    $ export GITHUB_REPOS="parent_dir_of_magic_cookbook"
+    $ export GITHUB_REPOS_PATH="parent_dir_of_magic_cookbook"
     ```
   
   - Read the code and play with the examples. We may not be able to test them all because 
