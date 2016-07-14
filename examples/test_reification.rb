@@ -35,8 +35,10 @@ puts "========================="
 # the magic way
 # advantages
 # - just pass in the resource to call and point it to the attributes
-# - attributes are set in attributes/default.rb and the top level attr gluing everything togher is called
+# - attributes are set in attributes/default.rb and the top level attr gluing everything together is called
 # - inclines the programmer to do attribute driven configs
+
+# this would go in attributes/default.rb
 h  = {
   'icinga2' => {
     'repo' => {
@@ -47,4 +49,7 @@ h  = {
   }
 }
 
+# one of your recipes calls this
 reify :my_apt_repository, h['icinga2']['repo']
+
+# More un-reified examples at https://gist.github.com/ephemeral972/1b53dcd738a7c59ff0cc237a2dfd8ce9
