@@ -18,7 +18,7 @@
     the magic cookbook is supposed to run in the context of chef.
 
     ```
-    $ ruby test_helpers.rb
+    $ ruby examples/test_helpers.rb
     ```
 
 ### Watch out
