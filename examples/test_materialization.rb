@@ -1,4 +1,4 @@
-require 'chef'
+require 'chef' # cheat by including the chef gem used in materialization later
 require_relative "#{ENV["GITHUB_REPOS_PATH"]}/magic-cookbook/libraries/materialization"
 include Materialization
 
