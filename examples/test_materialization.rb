@@ -31,3 +31,7 @@ puts "========================="
 puts "========================="
 puts materialize %w[ %{one} %{two} %{three} ], one: 1, two: 2, three: 3
 puts "========================="
+
+puts "========================="
+puts materialize one: [ { one: '%{two}', two: 2 } ], two: '%{three}', three: 4
+puts "========================="

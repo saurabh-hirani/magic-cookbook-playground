@@ -11,5 +11,5 @@ puts "--"
 h2 = { b: { d: 4 }, c: 3}
 puts JSON.pretty_generate(h2)
 puts "--"
-puts JSON.pretty_generate(h1.deep_merge(b: { d: 4 }, c: 3))
+puts JSON.pretty_generate(h1.deep_merge(h2))
 puts "============================"
